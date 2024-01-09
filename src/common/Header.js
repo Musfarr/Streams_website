@@ -15,7 +15,7 @@ const Header = () => {
         <Navbar className='navbar_custom'>
         <Link to={'/'}>
             <div className='logo' >
-            <img src='images/logo.jpeg'/>
+            <img src='images/logo.jpeg' alt=''/>
             </div>
         </Link>
             
