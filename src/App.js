@@ -8,7 +8,7 @@ import Contact from './pages/Contact'
 
 import 'rsuite/dist/rsuite.min.css';
 import 'uikit/dist/css/uikit.min.css';
-import { BrowserRouter as Router, Route, Switch, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
