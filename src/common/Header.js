@@ -9,8 +9,8 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <div style={{backgroundColor:'#ffffff'}}>
-        <div className='uk-container'>
+    <div className="sticky-header" style={{backgroundColor:'#ffffff'}}>
+        <div className='uk-container ' >
         
         <Navbar className='navbar_custom'>
         <Link to={'/'}>

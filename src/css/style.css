@@ -81,3 +81,10 @@ body{
 .scndsec .uk-card.uk-card-default.uk-card-medium.uk-card-body {
     margin: 10px 
 }
+
+.sticky-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Adjust the z-index as needed */
+  }
