@@ -1,0 +1,83 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    width: 200px;
+}
+
+.navbar_custom{
+    display: flex;
+    padding: 10px;
+    font-size: 18px;
+    background-color: white !important;
+}
+
+.rs-navbar-nav {
+    float: left;
+    padding-top: 7px;
+    padding-left: 10px ;
+}
+
+.footer{
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scndsec{
+    background-color: #031731;
+    padding-bottom: 20px;
+}
+
+.firstsec{
+    background-image: url('/public/images/front.webp');
+    background-size: cover;
+    height: 600px;
+}
+
+.front_text_wrap{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 600px;
+}
+
+.uk-button-large {
+    border: 2px solid;
+}
+
+.front_text{
+    color: white;
+    /* background-color: aqua; */
+    width: 70%;
+}
+.front_text h1 {
+    font-weight: 700;
+    
+}
+
+.firstsec  .uk-button-danger {
+    background-color: #031731 !important;
+    color: #fff;
+    border: 2px solid !important    ;
+}
+
+.uk-card.uk-card-default.uk-card-medium.uk-card-body {
+    margin-bottom: 25px;
+}
+.services_text{
+    margin: 20px;
+}
+
+.scndsec .uk-grid {
+    justify-content: center;
+}
+
+.scndsec .uk-card.uk-card-default.uk-card-medium.uk-card-body {
+    margin: 10px 
+}
