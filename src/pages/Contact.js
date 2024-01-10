@@ -10,7 +10,30 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className='uk-width-1-2' style={{backgroundColor:'red'}} >
+        <div className='uk-width-1-2 form '  >
+        <form>
+    <fieldset class="uk-fieldset">
+
+        <legend class="uk-legend">Legend</legend>
+
+        <div class="uk-margin">
+            <input class="uk-input" type="text" placeholder="Input" aria-label="Input"/>
+        </div>
+
+        <div class="uk-margin">
+            <select class="uk-select" aria-label="Select">
+                <option>Option 01</option>
+                <option>Option 02</option>
+            </select>
+        </div>
+
+        <div class="uk-margin">
+            <textarea class="uk-textarea" rows="5" placeholder="Textarea" aria-label="Textarea"></textarea>
+        </div>
+
+
+    </fieldset>
+</form>
 
         </div>
 

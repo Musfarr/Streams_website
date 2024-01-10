@@ -101,3 +101,24 @@
 .services_sec .services_text h1{
     padding: 26px;
 }
+
+.form{
+    background-color: #031731;
+    display: flex;
+    align-items: center;
+}
+
+.form form{
+    width: 90%;
+}
+
+
+@media (max-width: 420px) {
+    
+    .header_nav{
+        display: none;
+    }
+    .firstsec{
+        margin-top: 80px;
+    }
+}
