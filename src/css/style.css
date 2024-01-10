@@ -1,9 +1,4 @@
-html{
-    scroll-behavior: smooth;
-}
-body{
-    scroll-behavior: smooth;
-}
+
 
 .logo{
     width: 200px;
@@ -29,10 +24,8 @@ body{
     justify-content: center;
 }
 
-.scndsec{
-    background-color: #031731;
-    padding-bottom: 20px;
-}
+
+/* First Section */
 
 .firstsec{
     background-image: url('/public/images/front.webp');
@@ -67,6 +60,13 @@ body{
     border: 2px solid !important    ;
 }
 
+
+/* Second Section */
+
+.scndsec{
+    background-color: #031731;
+    padding-bottom: 40px;
+}
 .uk-card.uk-card-default.uk-card-medium.uk-card-body {
     margin-bottom: 25px;
 }
@@ -88,3 +88,16 @@ body{
     width: 100%;
     z-index: 1000; /* Adjust the z-index as needed */
   }
+
+.service_first_sec{
+    background-image: url('/public/images/blackboard.jpg   ');
+    height: 400px;
+    padding-top: 90px;
+    
+}
+.services_sec{
+}
+
+.services_sec .services_text h1{
+    padding: 26px;
+}
