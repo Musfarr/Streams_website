@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
 
@@ -24,10 +25,11 @@ const Home = () => {
                 capability to transform your ideas into reality with the right
                 engineering talent.
               </h4>
+              <Link to = { 'contact'}>
               <button className=" uk-button-large uk-button-danger">
                 {" "}
                 Contact Now{" "}
-              </button>
+              </button> </Link>
             </div>
           </div>
         </div>
