@@ -25,11 +25,11 @@ const Header = () => {
       <Nav.Item > <Link to={'/contact'}> Contact </Link> </Nav.Item>
       
       <Nav.Menu title="About">
-        <Nav.Item>Company</Nav.Item>
+        <Nav.Item><Link to={'/about'}>Company </Link> </Nav.Item>
         <Nav.Item>Team</Nav.Item>
         <Nav.Menu title="Contact">
-          <Nav.Item>Via email</Nav.Item>
-          <Nav.Item>Via telephone</Nav.Item>
+          <Nav.Item><Link to={'/contact'}>Via email </Link> </Nav.Item>
+          <Nav.Item><Link to={'/contact'} > Via telephone</Link></Nav.Item>
         </Nav.Menu>
       </Nav.Menu>
     </Nav>

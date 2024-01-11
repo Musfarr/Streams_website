@@ -5,6 +5,7 @@ import Footer from './common/Footer';
 import Home from './pages/Home'
 import Service from './pages/Service'
 import Contact from './pages/Contact'
+import About from './pages/about';
 
 import 'rsuite/dist/rsuite.min.css';
 import 'uikit/dist/css/uikit.min.css';
@@ -18,6 +19,8 @@ function App() {
       <Route path="/" element={<div> <Header /> <Home /> <Footer/> </div>}/>
       <Route path="/services" element={<div> <Header /> <Service /> <Footer/> </div>}/>
       <Route path="/contact" element={<div> <Header /> <Contact /> <Footer/> </div>}/>
+      <Route path="/about" element={<div> <Header /> <About /> <Footer/> </div>}/>
+
     </Routes>
   </Router>
   );
