@@ -4,9 +4,6 @@ import HomeIcon from '@rsuite/icons/legacy/Home';
 import { Link } from 'react-router-dom';
 
 
-
-
-
 const Header = () => {
   return (
     <div className="sticky-header" style={{backgroundColor:'#ffffff'}}>
